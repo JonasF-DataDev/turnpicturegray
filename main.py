@@ -37,7 +37,7 @@ if upload_image:
 
 
 #if camera_image = true zorgt ervoor dat de code enkel wordt uitgevoerd wanneer er een camera image is
-"""if camera_image:
+if camera_image:
 
     # Create a pillow image instance
     img = Image.open(camera_image)
@@ -53,4 +53,4 @@ if upload_image:
     st.download_button(label="Download Gray Image",
                        data=buffer,
                        file_name="grayscale_image.png",
-                       mime="image/png")"""
+                       mime="image/png")
