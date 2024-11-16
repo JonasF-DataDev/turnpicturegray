@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import io # voor het omgaan met byte-objecten
 
-st.title("Grayscale image convertor")
+st.title("Gray image convertor")
 
 with st.expander("Start Camera"):
     camera_image = st.camera_input("Camera")
